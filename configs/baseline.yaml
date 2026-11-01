@@ -1,0 +1,17 @@
+seed: 42
+data_dir: ./data
+output_dir: ./outputs
+activation: gelu
+optimizer: adam
+learning_rate: 0.001
+weight_decay: 0.0001
+momentum: 0.9
+batch_size: 64
+epochs: 20
+num_workers: 2
+cutout_size: 16
+use_amp: false
+wandb:
+  enabled: true
+  project: cs6886w-vgg6
+  entity: null
